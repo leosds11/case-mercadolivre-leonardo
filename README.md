@@ -36,27 +36,27 @@ Este projeto captura pacotes de rede e exibe estatísticas básicas sobre o trá
    sudo apt-get upgrade -y
 
 2. **Instalar Python e Pip**:
-   'sudo apt-get install python3 python3-pip -y'
+   `sudo apt-get install python3 python3-pip -y`
 
 3. **Instalar Scapy**:
-   pip3 install scapy
+   `pip3 install scapy`
 
 4. **Instalar sqlite3**:
-   sudo apt-get install sqlite3 -y
+   `sudo apt-get install sqlite3 -y`
 
 ### 3. Instalar Docker
 
 1. **Instalar Docker**:
-   sudo apt-get install docker.io -y
+   `sudo apt-get install docker.io -y`
 
 2. **Iniciar o Serviço Docker**:
-   sudo service docker start
+   `sudo service docker start`
 
 3. **Adicionar o Usuário Atual ao Grupo Docker**:
-   sudo usermod -aG docker $USER
+   `sudo usermod -aG docker $USER`
    
 4. **Criar arquivo Dockerfile**:
-   nano dockerfile
+   `nano dockerfile`
     
 5. **Reiniciar o WSL para aplicar as mudanças de grupo.**:
 
@@ -66,7 +66,7 @@ Este projeto captura pacotes de rede e exibe estatísticas básicas sobre o trá
    Exemplo: cd /seulocal/traffic_analyzer
    
 3. **Executar o Script**:
-   sudo python3 traffic_analyzer.py
+   `sudo python3 traffic_analyzer.py`
 
 4. **Interromper o Script**:
    Pressione Ctrl+C para interromper a execução do script e gerar o relatório.
@@ -74,16 +74,16 @@ Este projeto captura pacotes de rede e exibe estatísticas básicas sobre o trá
 ### 5. Visualizar o banco de dados
 
 1. **Abrir o Cliente SQLite**:
-   sqlite3 traffic_analyzer.db
+   `sqlite3 traffic_analyzer.db`
 
 2. **Listar Tabelas**:
-   .tables
+   `.tables`
 
 3. **Visualizar Dados na Tabela packets**:
-   SELECT * FROM packets;
+   `SELECT * FROM packets;`
 
 4. **Sair do Client SQLite**:
-   .exit
+   `.exit`
 
 
 ## Exemplos de Uso

@@ -1,4 +1,4 @@
-# Traffic Analyzer
+# Traffic Analyzer (Case Mercado Livre)
 
 ## Objetivo do Projeto
 Este projeto captura pacotes de rede e exibe estatísticas básicas sobre o tráfego. Utiliza a biblioteca Scapy para captura de pacotes e análise de protocolos, e armazena os dados em um banco de dados SQLite.

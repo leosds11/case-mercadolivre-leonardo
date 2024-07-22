@@ -36,7 +36,7 @@ Este projeto captura pacotes de rede e exibe estatísticas básicas sobre o trá
    sudo apt-get upgrade -y
 
 2. **Instalar Python e Pip**:
-   sudo apt-get install python3 python3-pip -y
+   'sudo apt-get install python3 python3-pip -y'
 
 3. **Instalar Scapy**:
    pip3 install scapy

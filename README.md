@@ -54,8 +54,11 @@ Este projeto captura pacotes de rede e exibe estatísticas básicas sobre o trá
 
 3. **Adicionar o Usuário Atual ao Grupo Docker**:
    sudo usermod -aG docker $USER
-
-4. **Reiniciar o WSL para aplicar as mudanças de grupo.**:
+   
+4. **Criar arquivo Dockerfile**:
+   nano dockerfile
+    
+5. **Reiniciar o WSL para aplicar as mudanças de grupo.**:
 
 ### 4. Executar o Script
 

@@ -58,10 +58,13 @@ Este projeto captura pacotes de rede e exibe estatísticas básicas sobre o trá
 
 ### 4. Executar o Script
 
-1. **Executar o Script**:
+1. **Acessar o local do Script**
+   Exemplo: cd /seulocal/traffic_analyzer
+   
+3. **Executar o Script**:
    sudo python3 traffic_analyzer.py
 
-2. ** Interromper o Script**:
+4. **Interromper o Script**:
    Pressione Ctrl+C para interromper a execução do script e gerar o relatório.
 
 ### 5. Visualizar o banco de dados

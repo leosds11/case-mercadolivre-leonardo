@@ -8,6 +8,7 @@ Este projeto captura pacotes de rede e exibe estatísticas básicas sobre o trá
 - Scapy
 - SQLite
 - WSL (Windows Subsystem for Linux)
+- Docker
 
 ## Instruções de Instalação
 

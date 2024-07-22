@@ -10,7 +10,7 @@ Este projeto captura pacotes de rede e exibe estatísticas básicas sobre o trá
 - WSL (Windows Subsystem for Linux)
 - Docker
 
-## Instruções de Instalação
+## Instruções de Instalação e Utilização
 
 ### 1. Configurar WSL no Windows
 

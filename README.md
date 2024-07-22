@@ -41,7 +41,7 @@ Este projeto captura pacotes de rede e exibe estatísticas básicas sobre o trá
 3. **Instalar Scapy**:
    pip3 install scapy
 
-4. **sudo apt-get install sqlite3 -y**:
+4. **Instalar sqlite3**:
    sudo apt-get install sqlite3 -y
 
 ### 3. Instalar Docker
